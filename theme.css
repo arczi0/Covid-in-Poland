@@ -1,31 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 
 body{
-    background: #12c2e9;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 .title{
-    color:white;
+    color:whitesmoke;
     font-size:55px;
     padding-top: 20px;
 }
 
 .today h2{
+    color: whitesmoke;
     font-size: 55px;
+    padding-top: 5rem;
 }
 
 p{
     font-size: 44px;
-    color: white;
+    color: black;
 }
 
 h1,h2,h3{
-    color: white;
+    color: black;
 }
 
 .container{
     padding-top: 30px;
 }
+
+.card {
+    background-color: whitesmoke;
+
+@media only screen and (max-width: 600px) {
+    .card {
+      background-color: whitesmoke;
+      margin-bottom: 15px;
+    }
+  }
